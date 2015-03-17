@@ -70,6 +70,13 @@ Default value: `10`
 
 List of spritesmith options is here: [npmjs.org/package/spritesmith](https://www.npmjs.org/package/spritesmith)
 
+#### options.pngfallback
+Type: `Bool`
+
+Default value: `true`
+
+Set `false` if you need SVG library only, without PNG fallback.
+
 #### options.svgclass
 Type: `String`
 
@@ -278,6 +285,12 @@ Add SVG-library to the page and add particular icons this way:
 In lieu of a formal styleguide, take care to maintain the existing coding style. Add unit tests for any new or changed functionality. Lint and test your code using [Grunt](http://gruntjs.com/).
 
 ## Release History
+
+0.2.11 — Fix closing tags again.
+
+0.2.10 — Symbols with modifications removed from generated library.
+
+0.2.9 — Fix closing tags for files with &lt;style&gt; inside.
 
 0.2.8 — Fix closing tags. Use param 'closetags: false' to switch it off.
 
